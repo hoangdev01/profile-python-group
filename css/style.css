@@ -33,11 +33,11 @@ body {
 .nav ul li a:hover {
     color: blue;
 }
+
 #about-us {
     display: flex;
     justify-content: center;
 }
-
 
 .about-me {
     display: flex;
@@ -48,7 +48,8 @@ body {
     width: 1024px;
 }
 
-.about-me .avatar,.avatar2 {
+.about-me .avatar,
+.avatar2 {
     align-self: center;
 }
 
@@ -60,6 +61,7 @@ body {
     margin: 10px 20px;
     right: 0px;
 }
+
 .about-me .avatar2 img {
     height: 200px;
     width: auto;
@@ -70,6 +72,10 @@ body {
 
 #education th {
     padding: 10px 40px;
+}
+
+#education td {
+    padding: 5px 30px;
 }
 
 #education {
@@ -87,9 +93,11 @@ body {
     height: auto;
     padding: 20px;
 }
-#education:target{
+
+#education:target {
     animation: play .8s steps(10) infinite;
 }
+
 html {
     scroll-behavior: smooth !important;
 }
